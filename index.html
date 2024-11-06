@@ -17,13 +17,81 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">     
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     
-    ...
+    <!-- header -->
+     <header>
+        <a href="#" class="logo">Shop.co</a>
+
+        <ul class="navlist">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">On Sale</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#"><i class="ri-search-line"></i></a>
+            <a href="#"><i class="ri-shopping-cart-line"></i></a>
+            <a href="#"><i class="ri-user-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+     </header>
+
+     <!-- home -->
+     <section class="home">
+        <div class="home-text"data-aos="fade-up">
+            <h6>New Arrivals</h6>
+            <h1>New Arrivals <br> ready to rock</h1>
+            <p>Qui officia deserunt molit anim id est labrumda is aute irruet dolor in prehendrit in anterevo lidptate essa cillum</p>
+            <a href="" class="btn">
+                Shop now
+                <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+     </section>
+
+    <!-- brands -->
+     <div class="brands">
+        <div class="main-brands">
+            <div class="brands-c">
+                <img src="img/g1.png" alt="g">
+            </div>
+
+            <div class="brands-c">
+                <img src="img/g2.png" alt="g">
+            </div>
+
+            <div class="brands-c">
+                <img src="img/g3.png" alt="g">
+            </div>
+
+            <div class="brands-c">
+                <img src="img/g4.png" alt="g">
+            </div>
+
+            <div class="brands-c">
+                <img src="img/g5.png" alt="g">
+            </div>
+        </div>
+     </div>
 
     <!-- custom js link -->
     <script src="js/script.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1450,
+      });
+    </script>
 
 </body>
 </html>
